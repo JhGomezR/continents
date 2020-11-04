@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS `continente` (
   PRIMARY KEY (`id_continente`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
-INSERT INTO `continente` (`id_continent`, `codigo`, `nombre`, `estado`) VALUES
+INSERT INTO `continente` (`id_continente`, `codigo`, `nombre`, `estado`) VALUES
 	(1, 'EU', 'Europe', 0),
 	(2, 'AS', 'Asia', 0),
 	(3, 'NA', 'North America', 0),
